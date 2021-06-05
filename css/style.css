@@ -1,0 +1,563 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height: 3000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* global classes */
+
+.container {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+nav {
+    background: #ffffff;
+    padding: 15px 10px;
+    overflow: hidden;
+    height: auto;
+}
+
+nav .link {
+    float: left;
+    height: auto;
+    width: 45%;
+    overflow: hidden;
+}
+
+nav .link li {
+    display: inline;
+}
+
+nav .link li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 16px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: arial;
+    font-weight: 500;
+}
+
+nav .link h2 {
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 25px;
+}
+
+nav .link p {
+    text-transform: capitalize;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 13px;
+}
+
+
+/********* end of nav bar *********/
+
+
+/**************** header **********/
+
+.header {
+    width: 100%;
+    padding: 40px 0px;
+    overflow: hidden;
+    height: 720px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.header .img1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 466px
+}
+
+.header .img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .cir1 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 129px;
+    left: 28%;
+}
+
+.header .img2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 442px;
+    bottom: 26px;
+    width: 370px;
+}
+
+.header .img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .cir2 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 188px;
+    right: 32%;
+}
+
+.header .Value {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header .Value h3 {
+    font-size: 53px;
+    font-family: arial;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+}
+
+.header .Value p {
+    text-transform: capitalize;
+    font-family: arial;
+    /* font-weight: 600; */
+    margin: auto;
+    width: 24%;
+    margin-bottom: 37px;
+    line-height: 25px;
+}
+
+.header .Value span {
+    background-color: black;
+    color: white;
+    padding: 15px 68px;
+    border-radius: 8px;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.Publication {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.Publication .publ {}
+
+.Publication .publ h2 {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom: 24px;
+}
+
+.Publication .publ p {
+    width: 31%;
+    margin: auto;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.Publication .publ .black {
+    overflow: hidden;
+    padding: 34px;
+    margin: auto;
+    text-align: center;
+    width: 76%;
+}
+
+.Publication .publ .black .item {
+    background: black;
+    width: 11%;
+    height: 42px;
+    float: left;
+    margin-right: 9%;
+}
+
+
+/************ feature **********/
+
+.Feature {}
+
+.Feature .collect {
+    overflow: hidden;
+}
+
+.Feature .collect .left {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    background-color: black;
+    height: 500px;
+}
+
+.Feature .collect .left .img {
+    background-color: white;
+    width: 51%;
+    height: 70%;
+    margin: auto;
+    position: relative;
+    top: 16%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Feature .collect .left .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.Feature .collect .right {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    height: 500px;
+    background-color: white;
+}
+
+.Feature .collect .right .rightcollect {
+    padding: 100px 71px;
+}
+
+.Feature .collect .right .rightcollect h2 {
+    font-family: arial;
+    font-size: 21px;
+    margin-bottom: 28px;
+}
+
+.Feature .collect .right .rightcollect p {
+    line-height: 30px;
+    font-weight: 500;
+    font-family: arial;
+    width: 80%;
+    width: 68%;
+    margin-bottom: 40px;
+}
+
+.Feature .collect .right .rightcollect span {
+    font-family: arial;
+    border: 1px solid black;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+
+/*****/
+
+.Feature .collect .right2 {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    background-color: black;
+    height: 500px;
+}
+
+.Feature .collect .right2 .img {
+    background-color: rgb(102, 101, 101);
+    width: 51%;
+    height: 70%;
+    margin: auto;
+    position: relative;
+    top: 16%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Feature .collect .right2 .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.Feature .collect .left2 {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    height: 500px;
+    background-color: white;
+}
+
+.Feature .collect .left2 .leftcollect {
+    padding: 100px 71px;
+}
+
+.Feature .collect .left2 .leftcollect h2 {
+    font-family: arial;
+    font-size: 21px;
+    margin-bottom: 28px;
+}
+
+.Feature .collect .left2 .leftcollect p {
+    line-height: 30px;
+    font-weight: 500;
+    font-family: arial;
+    width: 80%;
+    width: 68%;
+    margin-bottom: 40px;
+}
+
+.Feature .collect .left2 .leftcollect span {
+    font-family: arial;
+    border: 1px solid black;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+
+/*****************************/
+
+.wireframe {
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.wireframe .con1 {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.wireframe .con1 .left {
+    float: left;
+    width: 28%;
+    height: 100%;
+    background-color: #292929;
+}
+
+.wireframe .con1 .right {
+    width: 72%;
+    height: 100%;
+    float: left;
+    background-color: black;
+}
+
+.wireframe .con1 .right .author {
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 21px 89px
+}
+
+.wireframe .con1 .right .author .p1 {
+    font-size: 12px;
+    font-family: arial;
+}
+
+.wireframe .con1 .right .author h1 {
+    font-family: arial;
+    font-weight: 500;
+    font-size: 38px;
+    width: 52%;
+    margin-bottom: 55px;
+}
+
+.wireframe .con1 .right .author .p2 {
+    font-size: 12px;
+    font-family: arial
+}
+
+.wireframe .con2 {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    overflow: hidden;
+}
+
+.wireframe .con2 .item {
+    float: left;
+    width: 49%;
+    background-color: white;
+    margin-right: 1%;
+    padding: 15px 23px;
+    height: 225px;
+}
+
+.wireframe .con2 .item h3 {
+    font-family: arial;
+    font-weight: 700;
+    font-size: 22px;
+    width: 89%;
+}
+
+.wireframe .con2 .item p {
+    font-family: arial;
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+
+.wireframe .con2 .item span {
+    font-family: arial;
+    font-size: 13px;
+}
+
+
+/**************/
+
+.quote {
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.quote .par {}
+
+.quote .par .p1 {
+    font-size: 17px;
+    font-family: arial;
+}
+
+.quote .par .cir {
+    width: 35px;
+    background: black;
+    border-radius: 50%;
+    height: 35px;
+    margin: auto;
+}
+
+.quote .par .p2 {
+    font-size: 14px;
+    font-family: arial;
+}
+
+
+/***********************/
+
+.contac {
+    background-color: #f5f5f5;
+    padding: 40px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.contac::after {
+    content: " ";
+    position: absolute;
+    background: #cacaca;
+    width: 84%;
+    height: 1px;
+    /* top: 0px; */
+    left: 10%;
+    bottom: 0px;
+}
+
+.contac .left {
+    float: left;
+    width: 50%;
+}
+
+.contac .left .read {}
+
+.contac .left .read h2 {
+    width: 41%;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.contac .left .read h2 span {
+    font-weight: 600;
+}
+
+.contac .right {
+    float: right;
+    width: 50%;
+    direction: rtl;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+
+.contac .right span {
+    margin-left: 20px;
+    font-size: 13px;
+    font-family: arial;
+    padding: 8px 40px;
+    border-radius: 5px;
+}
+
+.contac .right span.span1 {
+    color: white;
+    background-color: black;
+}
+
+.contac .right span.span2 {
+    border: 2px solid black;
+}
+
+
+/***********/
+
+footer {
+    width: 100%;
+    overflow: hidden;
+    padding: 80px 40px;
+    background-color: #f5f5f5;
+}
+
+footer .col {}
+
+footer .right {
+    float: left;
+    width: 30%;
+}
+
+footer .right h3 {
+    font-weight: 900;
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 19px
+}
+
+footer .right .p1 {
+    font-size: 14px;
+}
+
+footer .right .p2 {
+    font-size: 14px;
+}
+
+footer .left {
+    float: right;
+    width: 70%;
+    padding-left: 60px;
+}
+
+footer .left .item {
+    float: left;
+    margin-right: 105px;
+}
+
+footer .left .item ul {}
+
+footer .left .item ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer .left .item ul li span {
+    font-weight: 700;
+}
